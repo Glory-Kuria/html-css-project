@@ -1,0 +1,15 @@
+#topnav{
+    display: flex;
+    gap: 80%;
+    background-color: darkslategrey;
+    
+}
+body{
+    background-image: url('pictures.html/coffeeshop.jpg');
+}
+#h1{
+    color: #f2f3f5;
+text-align: center;
+margin-top: 15%;
+font-size: 40px;
+}
