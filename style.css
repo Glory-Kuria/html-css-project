@@ -1,15 +1,87 @@
 #topnav{
     display: flex;
     gap: 80%;
+    margin-bottom: 0px;
     background-color: darkslategrey;
+    position: fixed;
+    top: 0;
+    width: 100%;
     
 }
-body{
-    background-image: url('pictures.html/coffeeshop.jpg');
+
+#heading1{
+background-image: url('pictures.html/coffeeshop.jpg');
 }
-#h1{
-    color: #f2f3f5;
+
+#bh{
+    font-size: 100px;
+color: #f2f3f5;
 text-align: center;
-margin-top: 15%;
-font-size: 40px;
+padding: 400px 400px 10px 400px;
+}
+
+#para{
+    font-size: 30px;
+    color: #f2f3f5;
+    text-align: center;
+    padding: 20px 20px 200px 20px;
+}
+.n1{
+    padding: 30;
+    border: 2px;
+    width: 30%;
+}
+.n2{
+    padding: 16;
+    border: 2px;
+    width: 30%;
+}
+.n3{
+    padding: 16;
+    border: 2px;
+    width: 30%;
+}
+.n4{
+    padding: 16;
+    border: 2px;
+    width: 30%;
+}
+.co-image{
+    scale: grey;
+    margin-top: 5%;
+    margin-left: 20%;
+}
+.container{
+    scale: gray; scale: min;
+    font-size: x-large;
+    padding-top: 32;
+    background-color: rgba(117, 54, 24, 0.596);
+}
+#intro{
+    text-align: center;
+    margin-top: 8%;
+    color: #f2f3f5;
+    font-size: 20px;
+    font-style: oblique;
+}
+#frm{
+    margin-left: 20%;
+}
+.co{
+    color: aliceblue;
+    font-style: oblique;
+}
+#details{
+    color: aliceblue;
+    font-style: oblique;
+}
+body{
+    background-image: url('pictures.html/bg.jpg');
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+#slog{
+    background-color: rgba(71, 40, 3, 0.349);
 }
