@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drinks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="hero-image">
+    <Strong>Drinks</Strong>
+
+</div>
+
+
+
+
+
+    <img id="chef" src="pictures.html/drinks.jpg" alt="Drink" style="width:100%;max-width:300px">
+
+
+    <div id="chefanime" class="mychef">
+      <span class="close">&times;</span>
+      <img class="mychef-content" id="img11">
+      <div id="caption"></div>
+    </div>
+    
+    <script>
+    // Get the modal
+    var mychef = document.getElementById("chefanime");
+    
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("chef");
+    var mychefImg = document.getElementById("img11");
+    var captionText = document.getElementById("caption");
+    img.onclick = function(){
+      mychef.style.display = "block";
+      mychefImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    
+    // Get the <span> element that closes the mychefmodal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+      mychef.style.display = "none";
+    }
+    </script>
+    
+</body>
+</html>

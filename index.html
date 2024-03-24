@@ -8,7 +8,7 @@
     <script type="img/javascript" src="ADTECH.js"></script>
 </head>
 <body>
-
+    <!-- <script type="img/javascript" src="ADTECH.js"></script> -->
     <div id="heading1">
 
     <div id="topnav">
@@ -41,7 +41,7 @@
 <p><input class="n2" type="number" placeholder="How many people" required name="people"></p>
 <p><input class="n3" type="datetime-local" placeholder="Date and time" required name="Date" value="2024-03-18T20:00"></p>
 <p><input class="n4" type="text" placeholder="Message/Special requirements" required name="Message"></p></p>
-<p><button type="submit">SEND MESSAGE</button></p>
+<p><button onclick="alert('Thanks for choosing BURGERHOUSE')" type="submit">SEND MESSAGE</button></p>
 </form>
 
 
@@ -117,60 +117,22 @@ VEGGIE MEDITERRANEAN MEDLEY <br>$10.99</b>
 
 <div id="anime">
     <p>GET A TASTE OF ME</p>
-<!-- </div>
-<div id="hamb">
-<div id="anim">
-    
 </div>
-<div id="nime">
-    
-</div>
-</div> -->
+<p id="name"></p>
 
-
-<!-- <div>
-<img src="pictures.html/hum2jpeg" alt="">
-</div>  -->
-
-<!-- <div id="anime">
-    <div id="animate">Get Yourself A Burger</div>
-</div>
 <script>
-//     var id = null;
-// function myMove(){
-//     var elem = document.getElementById("animate");
-//     var pos = 0;
-//     id = setInterval(frame,10);
-//     function frame() {
-// if (pos ==350) {
-//     clearInterval(id);
-// }else{
-//     pos++;
-// elem.style.top = pos+ 'px';
-// elem.style.left = pos+ 'px'
-// }
-//     }
-// }
-
-var id = null
-function myMove(){
-    var elem = document.getElementById("animate");
-    var pos = 0;
-    clearInterval(id);
-id = setInterval(frame, 10);
-function frame() {
-    if (pos == 350) {
-        clearInterval(id);
-    
-}
-    else {
-        pos++;
-        elem.style.top = pos + 'px';
-        elem.style.left = pos + 'px';
+document.getElementById("name").innerHTML = 
+"Page hostname is: " + window.location.hostname;
+</script>
+<script>
+    function newDoc() {
+      window.location.assign("http://127.0.0.1:5500/menu.html")
     }
-}
-
-}
-</script> -->
+    </script>
+    
+    <input type="button" value="Go To Drinks Menu" onclick="newDoc()">
+     
+</div>
+</div>
 </body>
 </html>
