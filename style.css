@@ -11,6 +11,8 @@
 
 #heading1{
 background-image: url('pictures.html/coffeeshop.jpg');
+background-size: cover;
+height: 100vh;
 }
 
 #bh{
@@ -153,12 +155,14 @@ width: 300px;
 }
 #block1{
     display: flex;
+    gap: 3%;
     color: white;
     font-style: italic;
     font-weight: 700;
 }
 #block2{
     display: flex;
+    gap: 3%;
     color: #f2f3f5;
     font-style: italic;
 }
@@ -259,6 +263,30 @@ input{
   background-size: cover;
   position: relative; 
 }
+#footer1{
+    display: flex;
+    gap: 3%;
+    font-size: larger;
+    color: white;
+    background-color: darkslategray;
+    margin-top: 10%;
+    }
+    #details1{
+        color: white;
+        /* margin-left: 350px; */
+    } 
+     #about{
+        margin-left: 340px; 
+        
+    }
+    #details{
+        color: black;
+        /* margin-left: 350px; */
+    } 
+    #cake{
+        margin-top: 2%;
+        border-radius: 50%;
+    }
 #nav{
     background-color: darkslategrey;
     position: fixed;
