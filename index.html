@@ -61,25 +61,25 @@
     <figure>
         <div id="text1">MARGIN SWISS BLISS BURGER <br>$12.99</b>
 <br></div>
-        <img src="pictures.html/Mushroom-Swiss.jpg" style="width: 250px; height: 260px;">
+        <img id="Mushroom-Swiss" src="pictures.html/Mushroom-Swiss.jpg">
     </figure>
 
     <figure>
         <div id="text1"> <b>SAVORY BACON RANCH <br>$10.99</b>
  <br></div>
-    <img src="pictures.html/savory.jpg" style="width: 200px;">
+    <img id="savory-bacon" src="pictures.html/savory.jpg">
     </figure>
 
     <figure>
        <div id="text1"><b>THE CLASSIC BEEF <br>$9.99</b>
  <br>
  </div>
-    <img src="pictures.html/beef classic.webp" style="width: 300px; height: 260px;">
+    <img id="beef-classic" src="pictures.html/beef classic.webp">
     </figure>
 
     <figure>
        <div id="text1"><b>CHICKEN DELIGHT <br>$10.99</b></div>
-<img src="pictures.html/chicken burger.jpg" style="width: 300px; height: 260px;">
+<img id="chicken-burger" src="pictures.html/chicken burger.jpg">
     </figure>
  </div>
 
@@ -87,37 +87,32 @@
     <figure>
   <div id="text1"><b>TERIYAKI TWIST <br>$10.99 </b>
     <br></div>
-    <img src="pictures.html/Teriyakz.jpg" style="width: 250px; height: 260px;">
+    <img id="Teriyakz" src="pictures.html/Teriyakz.jpg">
     </figure>
 
     <figure>
         <div id="text1"><b> BBQPULLEDPARK DREAM  <br> $13.99</b> 
         <br></div>
-    <img src="pictures.html/burnburger.webp" style="width: 250px; height: 260px;">
+    <img id="burnburger" src="pictures.html/burnburger.webp">
     </figure>
 
     <figure>
         <div id="text1"><b>
 VEGGIE MEDITERRANEAN MEDLEY <br>$10.99</b>
 <br></div>
-    <img src="pictures.html/veggie.jpg" style="width: 300px; height: 260px;">
+    <img id="veggie" src="pictures.html/veggie.jpg">
     </figure>
 
  <figure>
     <div id="text1"><b>
 VEGGIE MEDITERRANEAN MEDLEY <br>$10.99</b>
 <br></div>
-<img src="pictures.html/Burger Pulled Pork.jpg" style="width: 300px; height: 260px;">
+<img id="Pulled-pork" src="pictures.html/Burger Pulled Pork.jpg">
 </figure>
  </div>
 </div>
 </marquee>
  </div>
-
-<!-- <div id="anime">
-    <p>GET A TASTE OF ME</p>
-</div>
-<p id="name"></p> -->
 
 <script>
 document.getElementById("name").innerHTML = 
@@ -125,7 +120,7 @@ document.getElementById("name").innerHTML =
 </script>
 <script>
     function newDoc() {
-      window.location.assign("http://127.0.0.1:5500/menu.html")
+      window.location.assign("menu.html")
     }
     </script>
     
@@ -135,7 +130,7 @@ document.getElementById("name").innerHTML =
 </div>
 
 <div id="hero-image">
-    <Strong>Soft Drinks</Strong>
+    <Strong>Drink Me!</Strong>
 
 </div>
 
@@ -143,7 +138,7 @@ document.getElementById("name").innerHTML =
 
 
 
-    <img id="chef" src="pictures.html/drinks.jpg" alt="Soft Drinks" style="width:100%;max-width:300px">
+    <img id="chef" src="pictures.html/drinks.jpg" alt="Soft Drinks">
 
 
     <div id="chefanime" class="mychef">
@@ -176,12 +171,34 @@ document.getElementById("name").innerHTML =
     </script>
 
     <footer id="footer1">
-        <div id="cake"><img src="pictures.html/pancakes.jpg" style="width: 250px;"></div>
+        <div id="cake"><img src="pictures.html/pancakes.jpg"></div>
         <div id="about">
-        <p> <b>About</b> <br>Our open-air restaurant and patio are a fun,<br> relaxing environment for all occassions and to,<br> feast your eyes on some of the best views around. <br>  We'd love to host your special group event in our <br>unique venue.</p>
+        <p> <b>About</b> <br>Our open-air restaurant and patio are a fun,relaxing environment for all occassions and to,feast your eyes on some of the best views around. We'd love to host your special group event in our unique venue.</p>
         </div>
+
     <div id="details1">
-      <p> <b>Contact Info</b> <br> <b>Located @Papago Golf Club</b> <br><img src="pictures.html/location.png" alt=""><b>Adress:</b> 5595 E Baluwatar Way <br>Phoenix,AZ 85008 <br> <img src="pictures.html/call.png" alt=""><b>Phone:</b> 602-358-7004 <br><img src="pictures.html/email.png" alt=""><b>Email:</b>lousbarandgrill@buggerhouse.com <br> <img src="pictures.html/clock.png" alt=""><b>Hours of Service:</b> <br>Monday-Saturday 8am-8:30pm <br>Sunday 8am-7:30pm</p>
+      <div><p> <b>Contact Info</b> <br> <b>Located @Papago Golf Club</b> </p></div>
+          <div id="Located"> 
+            <div><img id="location" src="pictures.html/location.png" alt="location"> </div>
+            <div><p>5595 E Baluwatar Way Phoenix,AZ 85008</p></div>
+          </div>
+
+          <div id="called">
+        <div><img id="call" src="pictures.html/call.png" alt="call"></div>
+        <div> <p>602-358-7004 <br> </p></div>
+      </div>
+    </div>
+
+    <div id="details2">
+      <div id="emailed">
+       <div> <img id="email" src="pictures.html/email.png" alt="email"></div>
+      <div><p>lousbarandgrill@buggerhouse.com <br> </p> </div>
+      </div>
+
+      <div id="clocked">
+      <div> <img id="clock" src="pictures.html/clock.png" alt="time"> </div> 
+      <p>Monday-Saturday 8am-8:30pm <br>Sunday 8am-7:30pm</p>
+      </div>
     </div>
       </footer>
 </body>
